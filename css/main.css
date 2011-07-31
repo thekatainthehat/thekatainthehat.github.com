@@ -67,7 +67,7 @@ h3 {
 }
 
 #paper1 {
-  left: 280px;
+  left: 300px;
   top: 270px;
   width: 200px;
   height: 169px;
@@ -100,4 +100,13 @@ h3 {
   height: 195px;
   background-image: url(../images/paper4.png);
   z-index: 7;
+}
+
+#paper5 {
+  left: 140px;
+  top: 492px;
+  width: 300px;
+  height: 144px;
+  background-image: url(../images/paper5.png);
+  z-index: 1;
 }
