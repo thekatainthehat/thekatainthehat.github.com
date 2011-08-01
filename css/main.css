@@ -1,8 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC);
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic);
+
 body {
   margin: 0;
   min-width: 600px;
-  font-family: Perpetua;
-  font-size: 20px;
+  font-family: 'Gentium Basic', serif;
+  font-size: 16px;
 }
 
 .copy {
@@ -15,7 +18,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: Capitals;
+  font-family: 'IM Fell French Canon SC', serif;
   text-align: right;
 }
 
@@ -36,12 +39,12 @@ h3 {
 .text {
   margin-left: auto;
   margin-top: 80px;
-  width: 20em;
+  width: 24em;
   text-align: justify;
 }
 
 .column1, .column2 {
-  width: 9em;
+  width: 11em;
 }
 
 .column1 {
