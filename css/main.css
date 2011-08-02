@@ -55,6 +55,19 @@ h3 {
   float:right;
 }
 
+.quote {
+  font-style: italic;
+}
+
+.quote em {
+  font-style: normal;
+}
+
+.source {
+  padding-top: 0.5em;
+  text-align: right;
+}
+
 .hat {
   position: fixed;
   left: 0px;
