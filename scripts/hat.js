@@ -2,7 +2,7 @@
   Number.prototype.px = function() {
     return Math.round(this).toString() + "px";
   };
-  window.onload = function() {
+  $(function() {
     var hat, paper, scroll;
     hat = $('.hat');
     paper = $('.paper');
@@ -22,5 +22,5 @@
     };
     scroll();
     return $(window).scroll(scroll);
-  };
+  });
 }).call(this);

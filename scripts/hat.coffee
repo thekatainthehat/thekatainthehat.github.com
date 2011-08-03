@@ -1,7 +1,7 @@
 Number.prototype.px = ->
   Math.round(this).toString() + "px"
 
-window.onload = ->
+$ ->
   hat = $('.hat')
   paper = $('.paper')
 
