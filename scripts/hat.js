@@ -21,6 +21,6 @@
       });
     };
     scroll();
-    return document.onscroll = scroll;
+    return $(window).scroll(scroll);
   };
 }).call(this);

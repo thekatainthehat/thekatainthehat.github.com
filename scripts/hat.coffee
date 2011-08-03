@@ -19,4 +19,4 @@ window.onload = ->
 
   scroll()
     
-  document.onscroll = scroll
+  $(window).scroll(scroll);
