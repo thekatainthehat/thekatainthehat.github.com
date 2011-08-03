@@ -6,7 +6,7 @@ window.onload = ->
   paper = $('.paper')
 
   scroll = ->
-    scrollPos = document.body.scrollTop;
+    scrollPos = $(window).scrollTop();
     hatOffset = (-scrollPos / 20)
     hat.css('top',hatOffset.px())
     paper.each ->

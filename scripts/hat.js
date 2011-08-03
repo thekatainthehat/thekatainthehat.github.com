@@ -8,7 +8,7 @@
     paper = $('.paper');
     scroll = function() {
       var hatOffset, scrollPos;
-      scrollPos = document.body.scrollTop;
+      scrollPos = $(window).scrollTop();
       hatOffset = -scrollPos / 20;
       hat.css('top', hatOffset.px());
       return paper.each(function() {
