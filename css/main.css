@@ -37,8 +37,9 @@ h3 {
 }
 
 .text {
+  clear: both;
   margin-left: auto;
-  margin-top: 80px;
+  padding-top: 80px;
   width: 24em;
   text-align: justify;
 }
@@ -66,6 +67,10 @@ h3 {
 .source {
   padding-top: 0.5em;
   text-align: right;
+}
+
+.additional_notes {
+  font-style: italic;
 }
 
 .hat {
